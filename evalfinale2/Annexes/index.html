@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div id="titre">
+            <h1 id="titre1">Bienvenue à bord</h1>
+            <h5 id="titre2">Location de voiture 24h/24 et 7j/7</h5>
+        </div>
+        <div id="menu">
+            <nav id="containerbas">
+                <label  for="adressselect"></label>
+                    <select name="adresse" class="buttonshaut">
+                        <option value="Adresse">Adresse de depart</option>
+                        <option value="Paris">Paris</option>
+                        <option value="Lille">Lille</option>
+                        <option value="Montpelier">Montpelier</option>
+                    </select>
+                    <button class="buttonshaut">Debut de la location</button>
+                    <button class="buttonshaut">Fin de la location</button>
+                    <button id="boutonvalidation">Valider ma recherche</button>
+                </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="containerhead">
+           <p>4 résultats</p>
+           <label  for="prix"></label>
+                    <select name="prix" class="buttonprix">
+                        <option value="Prixcroissant">Prix croissants</option>
+                        <option value="Prixdecroissant">Prix décroissants</option>
+                        <option value="Vrac">Vrac</option>
+                    </select>
+        </div>
+        <div id="container2">
+            <nav class="carroussels">
+                <div class="sliders">
+                    <img id="flechepeugeotgauche" class="fleches" src="flechegauche.jpg" alt="flechegauche">
+                    <img id="peugeot" class="vehicules" src="vehicule1.png" alt="">
+                    <img id="flechepeugeotdroite" class="fleches" src="flechedroite.jpg" alt="flechedroite">
+                </div>
+                <div class="description">
+                    <h3>Peugeot 208</h3>
+                    <p>Diesel, 5 portes, GPS, autoRadio, Forfait 1000km (0.5/km supplémentaire).</p>
+                    <p>999 € - Agence de Paris</p>
+                    <button class="reservation">Reserver et Payer</button>
+                </div>
+            </nav>
+            <nav class="carroussels">
+                <div class="sliders">
+                    <img id="flechefordgauche" class="fleches" src="flechegauche.jpg" alt="flechegauche">
+                    <img id="ford" class="vehicules" src="vehicule2.png" alt="">
+                    <img id="flecheforddroite" class="fleches" src="flechedroite.jpg" alt="flechedroite">
+                </div>
+                <div class="description">
+                    <h3>Ford Focus</h3>
+                    <p>Diesel, 5 portes, GPS, autoRadio, Forfait 1000km (0.5/km supplémentaire).</p>
+                    <p>999 € - Agence de Paris</p>
+                    <button class="reservation">Reserver et Payer</button>
+                </div>
+            </nav>
+            <nav class="carroussels">
+                <div class="sliders">
+                    <img id="flecheaudigauche" class="fleches" src="flechegauche.jpg" alt="flechegauche">
+                    <img id="audi" class="vehicules" src="vehicule3.png" alt="">
+                    <img id="flecheaudidroite" class="fleches" src="flechedroite.jpg" alt="flechedroite">
+                </div>
+                <div class="description">
+                    <h3>Audi A1</h3>
+                    <p>Diesel, 5 portes, GPS, autoRadio, Forfait 1000km (0.55/km supplémentaire).</p>
+                    <p>1 100 € - Agence de Paris</p>
+                    <button class="reservation">Reserver et Payer</button>
+                </div>
+            </nav>
+            <nav class="carroussels">
+                <div class="sliders">
+                    <img id="flecheopelgauche" class="fleches" src="flechegauche.jpg" alt="flechegauche">
+                    <img id="opel" class="vehicules" src="vehicule4.png" alt="">
+                    <img id="flecheopeldroite" class="fleches" src="flechedroite.jpg" alt="flechedroite">
+                </div>
+                <div class="description">
+                    <h3>Opel Mokka</h3>
+                    <p>Diesel, 5 portes, GPS, autoRadio, Forfait 1000km (0.4/km supplémentaire).</p>
+                    <p>1 150 € - Agence de Paris</p>
+                    <button class="reservation">Reserver et Payer</button>
+                </div>
+            </nav>
+        </div>
+    </main>
+
+    <footer>
+        <div id="containerfoot">
+            <div id="divfootgauche">
+                <img id="photoagence" src="agence.jpg" alt="photodelagence">
+            </div>
+            <div id="divfootdroit">
+                <p class="contact">Notre agence de Paris</p>
+                <p class="contact">300 boulevard de Vaugirard, 75015 Paris</p>
+                <p class="contact">Ouvert 7j/7 de 09h à 13h et de 14h à 20h</p>
+                <p class="contact">01 49 78 21 33</p>
+                <p class="contact">contact@vtc.com</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
